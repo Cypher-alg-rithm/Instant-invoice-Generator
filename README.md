@@ -1,2 +1,8 @@
-# Instant-invoice-Generator
-Instant Invoice Generator A simple, mobile-friendly web tool to create professional invoices with your brand name prominently displayed at the top. Built with HTML, CSS, and JavaScript, it generates downloadable PDFs using jsPDF. Perfect for freelancers and small businesses.
+# Instant Invoice Generator
+A simple, mobile-friendly tool to create professional invoices with your brand name at the top. Built with HTML, CSS, and JavaScript using jsPDF.
+
+## Usage
+Visit [https://cypher-alg-rithm.github.io/invoice-generator](https://cypher-alg-rithm.github.io/invoice-generator) to try it out. Enter your business name, client details, and amount, then generate a PDF invoice.
+
+## License
+MIT License (see LICENSE file). 
