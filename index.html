@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Instant Receipt Generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Invoice Generator</h1>
+        <form id="invoice-form">
+            <label>Business Name:</label>
+            <input type="text" id="business-name" placeholder="Your Business" required>
+            <label>Client Name:</label>
+            <input type="text" id="client-name" placeholder="Client Name" required>
+            <label>Service:</label>
+            <input type="text" id="service-desc" placeholder="Service" required>
+            <label>Amount ($):</label>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Generate Invoice</button>
+        </form>
+        <div id="invoice-preview"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
